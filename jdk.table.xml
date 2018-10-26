@@ -1,0 +1,36 @@
+<application>
+  <component name="ProjectJdkTable">
+    <jdk version="2">
+      <name value="Python 3.6.2 (J:\Python\python.exe)" />
+      <type value="Python SDK" />
+      <version value="Python 3.6.2" />
+      <homePath value="J:\Python\python.exe" />
+      <roots>
+        <classPath>
+          <root type="composite">
+            <root type="simple" url="file://J:/Python/DLLs" />
+            <root type="simple" url="file://J:/Python/Lib" />
+            <root type="simple" url="file://J:/Python" />
+            <root type="simple" url="file://J:/Python/Lib/site-packages" />
+            <root type="simple" url="jar://J:/Python/Lib/site-packages/setuptools-39.1.0-py3.6.egg!/" />
+            <root type="simple" url="file://J:/Python/Lib/site-packages/pip-9.0.1-py3.6.egg" />
+            <root type="simple" url="file://K:/Jetbrains/.PyCharmCE/system/python_stubs/1198683604" />
+            <root type="simple" url="file://$APPLICATION_HOME_DIR$/helpers/python-skeletons" />
+            <root type="simple" url="file://$APPLICATION_HOME_DIR$/helpers/typeshed/stdlib/3.6" />
+            <root type="simple" url="file://$APPLICATION_HOME_DIR$/helpers/typeshed/stdlib/3.5" />
+            <root type="simple" url="file://$APPLICATION_HOME_DIR$/helpers/typeshed/stdlib/3.4" />
+            <root type="simple" url="file://$APPLICATION_HOME_DIR$/helpers/typeshed/stdlib/3.3" />
+            <root type="simple" url="file://$APPLICATION_HOME_DIR$/helpers/typeshed/stdlib/3" />
+            <root type="simple" url="file://$APPLICATION_HOME_DIR$/helpers/typeshed/stdlib/2and3" />
+            <root type="simple" url="file://$APPLICATION_HOME_DIR$/helpers/typeshed/third_party/3" />
+            <root type="simple" url="file://$APPLICATION_HOME_DIR$/helpers/typeshed/third_party/2and3" />
+          </root>
+        </classPath>
+        <sourcePath>
+          <root type="composite" />
+        </sourcePath>
+      </roots>
+      <additional />
+    </jdk>
+  </component>
+</application>
