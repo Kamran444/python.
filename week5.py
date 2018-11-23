@@ -1,11 +1,14 @@
 students = int (input ('Enter the number of students in the class: '))
-number_of_pcs = int (input ('Enter the number of PCs in the lab: '))
-number_of_classes = students // number_of_pcs
-
-
-if number_of_pcs <= 25:
-    print ('You need 2 labs for all the students')
+if students <= 0:
+    print('You need at least 1 student')
 else:
-    print('You need 1 lab for all the students')
-students = int (input ('Enter the number of students in the class: '))
-number_of_pcs = int (input ('Enter the number of PCs in the lab: '))
+    number_of_pcs = int (input ('Enter the number of PCs in the lab: '))
+
+    if number_of_pcs <= 0:
+        print('You need at least 1 lab')
+    full_lab = students // number_of_pcs
+    labs_remaining = students % number_of_pcs
+    if labs_remaining >= 1:
+        print('You need', full_lab+1, 'labs')
+    else:
+        print('You need', full_lab, 'labs')
