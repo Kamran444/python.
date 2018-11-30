@@ -17,3 +17,4 @@ input('Wins: ')
 input('Draws: ')
 input('Losses: ')
 input('Points: ')
+
